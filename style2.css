@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(th.jpg) url(th.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 20px;
+    position: relative;
+    width: 800px;
+    border-radius: 15px;
+    margin: 0%;
+    display: flex;
+    margin-top: -1%;
+    margin-left: -0%;
+    margin-right: 10%;
+    margin-bottom: 15%;
+    background-color: rgb(165, 102, 34);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.753)
+    
+}
+.container h1{
+    text-align: ce;
+    color: #000000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+}
+.container label{
+    text-align: left;
+    color: #90caf9;
+    border-radius: 30px;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color:rgb(255, 254, 254);
+    border-bottom: 2px solid #fffdfd;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.container form button{
+    width: 80px;
+    height: 55px;
+    padding: 5px 0;
+    border: none;
+    background-color:#ff29f8;
+    font-size: 18px;
+    color: #000000;
+    border-radius: 10px;
+}
+nav {
+    height: 80px;
+    background: rgb(241, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+  }
+  nav a {
+    text-decoration: none;
+    color: #fdcc04;
+    padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+    color: rgb(249, 249, 249);
+  }
+  #logo {
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem
+}
+
+.apalah {
+    margin-right: 60%;
+}
+
+.apalah2 {
+    margin-left: 50%;
+    margin-top: -20%;
+}
